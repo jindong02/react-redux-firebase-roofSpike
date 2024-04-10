@@ -1,0 +1,208 @@
+[
+    {
+      "id": 1,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "flat",
+      "roofPicture": "/roof1.png",
+      "address": "812 Veterans Dr, Carencro, LA 70520",
+      "owner": "John Doe",
+      "contactNumbers": ["123-456-7890", "987-654-3210"],
+      "emails": ["john.doe@example.com", "contact@johndoe.com"],
+      "positionTitle": "Building Manager",
+      "squareFt": "16,385.4 sq ft.",
+      "propertyType": "commercial"
+      
+    },
+    {
+      "id": 2,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "flat",
+      "roofPicture": "/roof2.png",
+      "address": "3540 NE Evangeline Thruway, Carencro, LA 70520",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "16,261.09 sq ft.",
+      "propertyType": "commercial"
+    
+    },
+    {
+      "id": 3,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof3.png",
+      "address": "3547 NW Evangeline Thruway, Carencro, LA 70520",
+      "owner": "John Doe",
+      "contactNumbers": ["123-456-7890", "987-654-3210"],
+      "emails": ["john.doe@example.com", "contact@johndoe.com"],
+      "positionTitle": "Building Manager",
+      "squareFt": "10,469.85 sq ft.",
+      "propertyType": "commercial"
+      
+    },
+    {
+      "id": 4,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof4.png",
+      "address": "96 Francois St, Lafayette, LA 70507",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "7,522.03 sq ft.",
+      "propertyType": "commercial"
+      
+    
+    },
+    {
+      "id": 5,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof5.png",
+      "address": "90 Francois St, Carencro, LA 70520",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "6,454.09 sq ft.",
+      "propertyType": "commercial"
+    
+    },
+    {
+      "id": 6,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof6.png",
+      "address": "601 Hector Connoly Rd, Carencro, LA 70520",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "8,553.54 sq ft.",
+      "propertyType": "commercial"
+    },
+    {
+      "id": 7,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof7.png",
+      "address": "119B Eloise Rd, Carencro, LA 70520",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "4,125.75 sq ft.",
+      "propertyType": "commercial"
+    },
+    {
+      "id": 8,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof8.png",
+      "address": "119B Eloise Rd, Carencro, LA 70520",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "39,979.44 sq ft.",
+      "propertyType": "commercial"
+
+    },
+    {
+      "id": 9,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof9.png",
+      "address": "3420 NE Evangeline Thruway, Lafayette, LA 70507",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "16,242.65 sq ft.",
+      "propertyType": "commercial"
+    },
+    {
+      "id": 10,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof10.png",
+      "address": "3480 NE Evangeline Thruway, Lafayette, LA 70507",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "15,598.66 sq ft.",
+      "propertyType": "commercial"
+    },
+    {
+      "id": 11,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "flat",
+      "roofPicture": "/roof11.png",
+      "address": "800 S Buchanan St, Lafayette, LA 70501",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "21,467.13 sq ft.",
+      "propertyType": "commercial"
+    },
+    {
+      "id": 12,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "flat",
+      "roofPicture": "/roof12.png",
+      "address": "515 Cathedral St, Lafayette, LA 70501",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "15,627.83 sq ft.",
+      "propertyType": "commercial"
+    },
+    {
+      "id": 13,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof13.png",
+      "address": "216 S Pierce St, Lafayette, LA 70501",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "3,226.94 sq ft.",
+      "propertyType": "commercial"
+    },
+    {
+      "id": 14,
+      "state": "Louisiana",
+      "city":"Lafayette",
+      "roof": "metal",
+      "roofPicture": "/roof14.png",
+      "address": "3324 NE Evangeline Thruway, Lafayette, LA 70507",
+      "owner": "Jane Smith",
+      "contactNumbers": ["555-123-4567"],
+      "emails": ["jane.smith@example.com"],
+      "positionTitle": "Property Owner",
+      "squareFt": "43,756.16 ft sq ft.",
+      "propertyType": "commercial"
+    }
+    
+
+  ]
+ 

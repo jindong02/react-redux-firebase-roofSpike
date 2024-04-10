@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s;
+}
+
+/* Fade Out Animation */
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.fade-out {
+  animation: fadeOut 0.3s;
+}
+
+.slider {
+  -webkit-appearance: none;
+  margin-top: -10px;
+  width: 100%;
+  height: 3px; /* Thin line */
+  background: orange; /* Orange line */
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; /* Size of the dot */
+  height: 20px; /* Size of the dot */
+  background: orange; /* Orange dot */
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: -3px; /* Adjust to center the dot vertically on the line */
+}
+
+.slider-labels {
+  padding-left: 15px; /* This value is adjustable depending on the slider thumb size */
+  padding-right: 10px; /* Adjust as needed */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Size of the dot */
+  height: 25px; /* Size of the dot */
+  background: orange; /* Orange dot */
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  bottom: 100%; /* Adjust as needed */
+  left: 50%;
+  margin-left: -100px; /* Adjust as needed */
+  border: 1px solid #555;
+  background-color: #c23d3d;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Tooltip arrow */
+  ::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+}
+
+.message {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+
+

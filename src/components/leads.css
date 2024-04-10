@@ -1,0 +1,302 @@
+/* styles.css */
+/* leads.css */
+
+/* In your global CSS file */
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+.orange-button {
+  display: inline-block;
+  background-color: #ff7900;
+  color: white;
+  padding: 10px 20px; /* Adjust padding for circular shape */
+  border-radius: 4px; /* Correct value for a circle */
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+  font-weight: bold;
+}
+
+.orange-button:hover {
+  background-color: orange;
+  transform: scale(1.1);
+}
+@media (max-width: 600px) {
+  .orange-button {
+    padding: 8px 15px; /* Smaller padding for smaller screens */
+    font-size: 0.8em; /* Smaller font size for smaller screens */
+    display: block; /* Block display to help with centering */
+    width: auto; /* Auto width for proper sizing */
+  }
+}
+
+
+/* Existing styles... */
+
+/* Blur effect */
+.content-blur {
+  filter: blur(2.3px);
+  
+
+  pointer-events: none; /* Disables interactions */
+  user-select: none;
+}
+
+/* Login Modal Styles */
+.login-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1000; /* Ensure it's above other content */
+  /* Add more styling as needed */
+}
+
+/* Input fields, buttons, etc., inside the modal */
+.login-modal input,
+.login-modal button {
+  /* Add styles for your input fields and buttons */
+}
+
+
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); } /* Quick movement to halfway */
+    100% { transform: rotate(360deg); } /* Normal speed to complete the circle */
+  }
+
+  .lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ffffff; /* Changed to white for better visibility */
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  @keyframes ldio-0uyuljhsbi9j {
+    0%    { transform: translate(1.97px,1.97px) }
+   33.33% { transform: translate(100.47px,1.97px) }
+   66.66% { transform: translate(41.37px,100.47px) }
+  100%    { transform: translate(1.97px,1.97px) }
+}
+
+
+.ldio-0uyuljhsbi9j > div {
+  transform: scale(0.56);
+  transform-origin: 98.5px 98.5px;
+}
+
+.ldio-0uyuljhsbi9j > div > div {
+  animation: ldio-0uyuljhsbi9j 2.6315789473684212s linear infinite;
+  position: absolute
+}
+
+.ldio-0uyuljhsbi9j > div > div div:nth-child(1) {
+  width: 70.92px;
+  height: 70.92px;
+  border-radius: 50%;
+  border: 11.82px solid #ff7900;
+  background: #212425
+}
+
+.ldio-0uyuljhsbi9j > div > div div:nth-child(2) {
+  width: 16.745px;
+  height:  50.235px;
+  transform: rotate(-45deg);
+  background: #ff7900;
+  border-radius: 0 0 7.88px 7.88px;
+  position: absolute;
+  top: 66.98px;
+  left: 83.725px
+}
+.loadingio-spinner-magnify-h1r7iir60me {
+  width: 197px;
+  height: 197px;
+  display: inline-block;
+  overflow: hidden;
+  background: #000000;
+}
+.ldio-0uyuljhsbi9j {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-0uyuljhsbi9j div { box-sizing: content-box; }
+
+.leads-container {
+  background-color: black;
+  padding: 0 10px; /* Smaller padding for smaller screens */
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .leads-container {
+    padding: 0 20px; /* Larger padding for larger screens */
+  }
+}
+.leads-header {
+  text-align: center; /* Center the header content */
+  margin-bottom: 20px; /* Add some space below the header */
+}
+
+.leads-header img {
+  width: 120px; /* Smaller size for smaller screens */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .leads-header img {
+    width: 200px; /* Larger size for larger screens */
+  }
+}
+
+.leads-table {
+  width: 100%; /* Full width on smaller screens */
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .leads-table {
+    width: calc(100% - 40px);
+    margin: 20px auto; /* Adjusted width on larger screens */
+  }
+}
+
+.leads-table th, .leads-table td {
+  padding: 4px; /* Smaller padding for smaller screens */
+  border-bottom: 1px solid orange;
+  font-size: 10px
+}
+
+@media (min-width: 768px) {
+  .leads-table th, .leads-table td {
+    padding: 8px; /* Larger padding for larger screens */
+    font-size: 14px
+  }
+}
+
+.leads-table thead th {
+  border-top: 1px solid orange; /* Top border for header row */
+  border-bottom: 1px solid orange; /* Thicker bottom border for header row */
+
+}
+
+.leads-table th:first-child, .leads-table td:first-child {
+  border-left: 1px solid orange; /* Left border for the first cell in each row */
+
+}
+
+.leads-table th:last-child, .leads-table td:last-child {
+  border-right: 1px solid orange; /* Right border for the last cell in each row */
+ 
+}
+
+
+
+.roof-image {
+  width: 50px; /* Adjust as needed */
+  height: auto;
+  margin-right: 10px; /* Add space after the image */
+}
+
+.clickable-row {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clickable-row:hover {
+  background-color: #ff7900; /* or any other color you prefer */
+  color: white; /* Change text color on hover if needed */
+}
